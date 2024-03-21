@@ -10,7 +10,7 @@ input[type="text"], input[type="email"], input[type="tel"] {
 }
 
 form button[type="submit"] {
-    width: 20%; 
+    width: 10%; 
     margin-left: auto; 
     display: block;
     color: white;
