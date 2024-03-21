@@ -116,7 +116,7 @@ nav a {
 
 #contact-form {
     padding: 20px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 #contact-form form {
@@ -126,7 +126,7 @@ nav a {
 }
 
 #contact-form input, #contact-form textarea {
-    width: 100%;
+    width: 95%;
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ddd;
@@ -156,7 +156,7 @@ footer {
     width:13%;
     background-color: rgb(171, 148, 255);
     color: rgb(70, 47, 109);
-    float: right;
+    float: left;
 }
 
 #background{
@@ -276,3 +276,31 @@ body#contact #contactpage a {
     }
 }                                
 
+/* small screen*/
+@media (max-width: 590px){ 
+    .top-header{
+        display: grid;
+        
+        grid-template-columns: repeat(13,1fr);
+        
+  
+    }
+    
+    nav{
+        grid-column: 1/4;
+        display: grid;
+        grid-template-columns: 1fr;
+        display: none;
+    }
+    
+    #logo{
+        grid-column: 11/13;
+    }
+    
+    #main-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    
+  }  
