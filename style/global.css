@@ -117,6 +117,9 @@ nav a {
 #contact-form {
     padding: 20px;
     text-align: left;
+    max-width: 790px;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 #contact-form form {
