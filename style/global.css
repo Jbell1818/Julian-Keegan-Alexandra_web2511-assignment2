@@ -116,13 +116,12 @@ nav a {
 
 #contact-form {
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 #contact-form form {
-    display: inline-block;
-    max-width: 500px;
-    width: 100%;
+    display: block;
+    margin: auto;
 }
 
 #contact-form input, #contact-form textarea {
@@ -132,6 +131,18 @@ nav a {
     border: 1px solid #ddd;
 }
 
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px; 
+}
+#contact-form label {
+    display: inline-block;
+    margin-right: 10px;
+}
 #contact-form button {
     padding: 10px 20px;
     background-color: #5cb85c;
