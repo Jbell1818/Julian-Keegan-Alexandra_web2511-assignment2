@@ -150,6 +150,9 @@ nav a {
     border: none;
     cursor: pointer;
 }
+fieldset dt {
+    margin-bottom: 20px; 
+}
 
 h3 {
     display: inline-block;
