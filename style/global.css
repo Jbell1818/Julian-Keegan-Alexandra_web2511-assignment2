@@ -266,6 +266,21 @@ body#contact #contactpage a {
     text-indent: 15px;
 }
 
+#skip-to-main-content {
+    position: absolute;
+    left: -9999px;
+    z-index: 999;
+    background-color: black;
+    color: white;
+    opacity: 0;
+  }
+  
+  #skip-to-main-content:focus {
+    z-index: 10000;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+  }
 
 /* small screen*/
 @media (max-width: 590px){ 
@@ -281,6 +296,15 @@ body#contact #contactpage a {
 
     #logo {
         margin: auto;
+    }
+
+    #skip-to-main-content:focus {
+        position: absolute;
+        left: -9999px;
+        z-index: 999;
+        background-color: black;
+        color: white;
+        opacity: 0;
     }
 } 
  
