@@ -10,7 +10,7 @@ input[type="text"], input[type="email"], input[type="tel"] {
 }
 
 form button[type="submit"] {
-    width: 10%; 
+    width: 100px; 
     margin-left: auto; 
     display: block;
     color: white;
@@ -74,7 +74,7 @@ header {
 #logo {
     width: 75px;
     height: 75px;
-    margin-right: 20px;
+ 
 }
 
 #header-image {
@@ -251,7 +251,6 @@ body#contact #contactpage a {
 
 #top-button{
     margin-top: 25px;
-    margin-right: 10px;
     float: right;
 }
 
@@ -276,7 +275,13 @@ body#contact #contactpage a {
         grid-template-columns: 1fr;
     }
     
-    
+    nav {
+        display: none;
+    }
+
+    #logo {
+        margin: auto;
+    }
 } 
  
 /* medium screen */
