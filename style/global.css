@@ -126,7 +126,7 @@ nav a {
 }
 
 #contact-form input, #contact-form textarea {
-    width: 100%;
+    width: 95%;
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ddd;
@@ -267,7 +267,15 @@ body#contact #contactpage a {
         grid-template-columns: 1fr;
     }
     
-    
+    nav{
+        display: none;
+    }
+
+    .top-header {
+        display: flex;
+        align-items: center;
+    }
+
 } 
  
 /* medium screen */
