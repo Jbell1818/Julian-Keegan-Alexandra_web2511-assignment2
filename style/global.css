@@ -278,15 +278,7 @@ body#contact #contactpage a {
         grid-template-columns: 1fr;
     }
     
-    nav{
-        display: none;
-    }
-
-    .top-header {
-        display: flex;
-        align-items: center;
-    }
-
+    
 } 
  
 /* medium screen */
