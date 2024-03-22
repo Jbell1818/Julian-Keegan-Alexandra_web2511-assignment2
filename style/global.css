@@ -12,7 +12,7 @@ input[type="text"], input[type="email"], input[type="tel"] {
 form button[type="submit"], form button[type="reset"] {
     width: 100px; 
     margin-right: 10px; 
-    float:left;
+    float:right;
     display: inline-block;
     color: white;
     border-radius: 5px;
