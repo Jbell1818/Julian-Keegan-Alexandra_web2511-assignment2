@@ -11,8 +11,8 @@ input[type="text"], input[type="email"], input[type="tel"] {
 
 form button[type="submit"], form button[type="reset"] {
     width: 100px; 
-    margin-left: auto; 
-    display: block;
+    margin-right: 10px; 
+    display: inline-block;
     color: white;
     border-radius: 5px;
     margin-top: 10px;
