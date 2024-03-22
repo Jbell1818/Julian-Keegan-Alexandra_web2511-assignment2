@@ -9,7 +9,7 @@ input[type="text"], input[type="email"], input[type="tel"] {
     color:black 
 }
 
-form button[type="submit"] {
+form button[type="submit"], form button[type="reset"] {
     width: 100px; 
     margin-left: auto; 
     display: block;
