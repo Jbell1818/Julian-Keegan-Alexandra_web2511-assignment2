@@ -12,11 +12,12 @@ input[type="text"], input[type="email"], input[type="tel"] {
 form button[type="submit"], form button[type="reset"] {
     width: 100px; 
     margin-right: 10px; 
-    float:right;
+    margin-bottom: 30px;
     display: inline-block;
     color: white;
     border-radius: 5px;
     margin-top: 10px;
+    float: right;
 }
 
     
